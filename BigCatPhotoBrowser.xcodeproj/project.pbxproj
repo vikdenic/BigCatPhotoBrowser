@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9306B476193C1A08001D23ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9306B475193C1A08001D23ED /* Foundation.framework */; };
+		9306B478193C1A08001D23ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9306B477193C1A08001D23ED /* CoreGraphics.framework */; };
+		9306B47A193C1A08001D23ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9306B479193C1A08001D23ED /* UIKit.framework */; };
+		9306B480193C1A08001D23ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9306B47E193C1A08001D23ED /* InfoPlist.strings */; };
+		9306B482193C1A08001D23ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9306B481193C1A08001D23ED /* main.m */; };
+		9306B486193C1A08001D23ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9306B485193C1A08001D23ED /* AppDelegate.m */; };
+		9306B489193C1A08001D23ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9306B487193C1A08001D23ED /* Main.storyboard */; };
+		9306B48C193C1A08001D23ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9306B48B193C1A08001D23ED /* ViewController.m */; };
+		9306B48E193C1A08001D23ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9306B48D193C1A08001D23ED /* Images.xcassets */; };
+		9306B495193C1A08001D23ED /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9306B494193C1A08001D23ED /* XCTest.framework */; };
+		9306B496193C1A08001D23ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9306B475193C1A08001D23ED /* Foundation.framework */; };
+		9306B497193C1A08001D23ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9306B479193C1A08001D23ED /* UIKit.framework */; };
+		9306B49F193C1A08001D23ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9306B49D193C1A08001D23ED /* InfoPlist.strings */; };
+		9306B4A1193C1A08001D23ED /* BigCatPhotoBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9306B4A0193C1A08001D23ED /* BigCatPhotoBrowserTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9306B498193C1A08001D23ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9306B46A193C1A08001D23ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9306B471193C1A08001D23ED;
+			remoteInfo = BigCatPhotoBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9306B472193C1A08001D23ED /* BigCatPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigCatPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9306B475193C1A08001D23ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9306B477193C1A08001D23ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9306B479193C1A08001D23ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9306B47D193C1A08001D23ED /* BigCatPhotoBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BigCatPhotoBrowser-Info.plist"; sourceTree = "<group>"; };
+		9306B47F193C1A08001D23ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9306B481193C1A08001D23ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9306B483193C1A08001D23ED /* BigCatPhotoBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BigCatPhotoBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		9306B484193C1A08001D23ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9306B485193C1A08001D23ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9306B488193C1A08001D23ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9306B48A193C1A08001D23ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9306B48B193C1A08001D23ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9306B48D193C1A08001D23ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9306B493193C1A08001D23ED /* BigCatPhotoBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigCatPhotoBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9306B494193C1A08001D23ED /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9306B49C193C1A08001D23ED /* BigCatPhotoBrowserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BigCatPhotoBrowserTests-Info.plist"; sourceTree = "<group>"; };
+		9306B49E193C1A08001D23ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9306B4A0193C1A08001D23ED /* BigCatPhotoBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BigCatPhotoBrowserTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9306B46F193C1A08001D23ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9306B478193C1A08001D23ED /* CoreGraphics.framework in Frameworks */,
+				9306B47A193C1A08001D23ED /* UIKit.framework in Frameworks */,
+				9306B476193C1A08001D23ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9306B490193C1A08001D23ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9306B495193C1A08001D23ED /* XCTest.framework in Frameworks */,
+				9306B497193C1A08001D23ED /* UIKit.framework in Frameworks */,
+				9306B496193C1A08001D23ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9306B469193C1A08001D23ED = {
+			isa = PBXGroup;
+			children = (
+				9306B47B193C1A08001D23ED /* BigCatPhotoBrowser */,
+				9306B49A193C1A08001D23ED /* BigCatPhotoBrowserTests */,
+				9306B474193C1A08001D23ED /* Frameworks */,
+				9306B473193C1A08001D23ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9306B473193C1A08001D23ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9306B472193C1A08001D23ED /* BigCatPhotoBrowser.app */,
+				9306B493193C1A08001D23ED /* BigCatPhotoBrowserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9306B474193C1A08001D23ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9306B475193C1A08001D23ED /* Foundation.framework */,
+				9306B477193C1A08001D23ED /* CoreGraphics.framework */,
+				9306B479193C1A08001D23ED /* UIKit.framework */,
+				9306B494193C1A08001D23ED /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9306B47B193C1A08001D23ED /* BigCatPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				9306B487193C1A08001D23ED /* Main.storyboard */,
+				9306B48A193C1A08001D23ED /* ViewController.h */,
+				9306B48B193C1A08001D23ED /* ViewController.m */,
+				9306B48D193C1A08001D23ED /* Images.xcassets */,
+				9306B47C193C1A08001D23ED /* Supporting Files */,
+			);
+			path = BigCatPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		9306B47C193C1A08001D23ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9306B484193C1A08001D23ED /* AppDelegate.h */,
+				9306B485193C1A08001D23ED /* AppDelegate.m */,
+				9306B47D193C1A08001D23ED /* BigCatPhotoBrowser-Info.plist */,
+				9306B47E193C1A08001D23ED /* InfoPlist.strings */,
+				9306B481193C1A08001D23ED /* main.m */,
+				9306B483193C1A08001D23ED /* BigCatPhotoBrowser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9306B49A193C1A08001D23ED /* BigCatPhotoBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				9306B4A0193C1A08001D23ED /* BigCatPhotoBrowserTests.m */,
+				9306B49B193C1A08001D23ED /* Supporting Files */,
+			);
+			path = BigCatPhotoBrowserTests;
+			sourceTree = "<group>";
+		};
+		9306B49B193C1A08001D23ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9306B49C193C1A08001D23ED /* BigCatPhotoBrowserTests-Info.plist */,
+				9306B49D193C1A08001D23ED /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9306B471193C1A08001D23ED /* BigCatPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9306B4A4193C1A08001D23ED /* Build configuration list for PBXNativeTarget "BigCatPhotoBrowser" */;
+			buildPhases = (
+				9306B46E193C1A08001D23ED /* Sources */,
+				9306B46F193C1A08001D23ED /* Frameworks */,
+				9306B470193C1A08001D23ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BigCatPhotoBrowser;
+			productName = BigCatPhotoBrowser;
+			productReference = 9306B472193C1A08001D23ED /* BigCatPhotoBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9306B492193C1A08001D23ED /* BigCatPhotoBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9306B4A7193C1A08001D23ED /* Build configuration list for PBXNativeTarget "BigCatPhotoBrowserTests" */;
+			buildPhases = (
+				9306B48F193C1A08001D23ED /* Sources */,
+				9306B490193C1A08001D23ED /* Frameworks */,
+				9306B491193C1A08001D23ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9306B499193C1A08001D23ED /* PBXTargetDependency */,
+			);
+			name = BigCatPhotoBrowserTests;
+			productName = BigCatPhotoBrowserTests;
+			productReference = 9306B493193C1A08001D23ED /* BigCatPhotoBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9306B46A193C1A08001D23ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Mobile Makers";
+				TargetAttributes = {
+					9306B492193C1A08001D23ED = {
+						TestTargetID = 9306B471193C1A08001D23ED;
+					};
+				};
+			};
+			buildConfigurationList = 9306B46D193C1A08001D23ED /* Build configuration list for PBXProject "BigCatPhotoBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9306B469193C1A08001D23ED;
+			productRefGroup = 9306B473193C1A08001D23ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9306B471193C1A08001D23ED /* BigCatPhotoBrowser */,
+				9306B492193C1A08001D23ED /* BigCatPhotoBrowserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9306B470193C1A08001D23ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9306B48E193C1A08001D23ED /* Images.xcassets in Resources */,
+				9306B480193C1A08001D23ED /* InfoPlist.strings in Resources */,
+				9306B489193C1A08001D23ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9306B491193C1A08001D23ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9306B49F193C1A08001D23ED /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9306B46E193C1A08001D23ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9306B48C193C1A08001D23ED /* ViewController.m in Sources */,
+				9306B486193C1A08001D23ED /* AppDelegate.m in Sources */,
+				9306B482193C1A08001D23ED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9306B48F193C1A08001D23ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9306B4A1193C1A08001D23ED /* BigCatPhotoBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9306B499193C1A08001D23ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9306B471193C1A08001D23ED /* BigCatPhotoBrowser */;
+			targetProxy = 9306B498193C1A08001D23ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9306B47E193C1A08001D23ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9306B47F193C1A08001D23ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9306B487193C1A08001D23ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9306B488193C1A08001D23ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9306B49D193C1A08001D23ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9306B49E193C1A08001D23ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9306B4A2193C1A08001D23ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9306B4A3193C1A08001D23ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9306B4A5193C1A08001D23ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BigCatPhotoBrowser/BigCatPhotoBrowser-Prefix.pch";
+				INFOPLIST_FILE = "BigCatPhotoBrowser/BigCatPhotoBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9306B4A6193C1A08001D23ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BigCatPhotoBrowser/BigCatPhotoBrowser-Prefix.pch";
+				INFOPLIST_FILE = "BigCatPhotoBrowser/BigCatPhotoBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9306B4A8193C1A08001D23ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BigCatPhotoBrowser.app/BigCatPhotoBrowser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BigCatPhotoBrowser/BigCatPhotoBrowser-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BigCatPhotoBrowserTests/BigCatPhotoBrowserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9306B4A9193C1A08001D23ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BigCatPhotoBrowser.app/BigCatPhotoBrowser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BigCatPhotoBrowser/BigCatPhotoBrowser-Prefix.pch";
+				INFOPLIST_FILE = "BigCatPhotoBrowserTests/BigCatPhotoBrowserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9306B46D193C1A08001D23ED /* Build configuration list for PBXProject "BigCatPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9306B4A2193C1A08001D23ED /* Debug */,
+				9306B4A3193C1A08001D23ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9306B4A4193C1A08001D23ED /* Build configuration list for PBXNativeTarget "BigCatPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9306B4A5193C1A08001D23ED /* Debug */,
+				9306B4A6193C1A08001D23ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9306B4A7193C1A08001D23ED /* Build configuration list for PBXNativeTarget "BigCatPhotoBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9306B4A8193C1A08001D23ED /* Debug */,
+				9306B4A9193C1A08001D23ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9306B46A193C1A08001D23ED /* Project object */;
+}
